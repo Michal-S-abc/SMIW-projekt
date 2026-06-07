@@ -2446,12 +2446,6 @@
 		(uuid "28099d48-96a7-4d2e-bba0-60243ea4ced0")
 	)
 	(junction
-		(at 19.05 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "34f92738-4774-49b7-89e0-94e2d3020a91")
-	)
-	(junction
 		(at 120.65 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2975,7 +2969,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 30.48) (xy 38.1 30.48)
+			(xy 36.83 30.48) (xy 38.1 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2995,7 +2989,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 63.5) (xy 19.05 63.5)
+			(xy 30.48 63.5) (xy 26.67 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3132,16 +3126,6 @@
 			(type default)
 		)
 		(uuid "e2539b7e-c62b-44ad-b280-5d534967a749")
-	)
-	(wire
-		(pts
-			(xy 19.05 30.48) (xy 19.05 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9c7d63b-60c2-4039-8492-0b7498becd2b")
 	)
 	(wire
 		(pts
@@ -5125,6 +5109,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V0")
+		(at 26.67 63.5 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4f872c1-741a-4b67-a3f0-465dd342d91a")
+		(property "Reference" "#PWR054"
+			(at 30.48 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12V"
+			(at 22.86 63.4999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 26.67 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4c80be03-0f39-485c-8484-8be35d293450")
+		)
+		(instances
+			(project "smiw_proj"
+				(path "/1f242d25-3f72-47fa-ab49-33cac50f3366"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 34.29 63.5 90)
 		(unit 1)
@@ -5385,7 +5448,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 19.05 30.48 0)
+		(at 36.83 30.48 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5393,10 +5456,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fafb64de-3a8a-4fc1-baa4-50c40517f032")
 		(property "Reference" "#PWR043"
-			(at 19.05 34.29 0)
+			(at 40.64 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5407,7 +5469,7 @@
 			)
 		)
 		(property "Value" "12V"
-			(at 19.05 25.4 0)
+			(at 31.496 30.226 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5417,7 +5479,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 30.48 0)
+			(at 36.83 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5428,7 +5490,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 30.48 0)
+			(at 36.83 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5439,7 +5501,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 19.05 30.48 0)
+			(at 36.83 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

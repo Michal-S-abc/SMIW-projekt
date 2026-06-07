@@ -2312,7 +2312,7 @@
 		)
 		(uuid "042b2c3b-3620-46e0-a74b-5983912e06c7")
 	)
-	(label "#FRAM CS"
+	(label "{slash}FRAM CS"
 		(at 59.69 44.45 0)
 		(effects
 			(font
@@ -2372,7 +2372,7 @@
 		)
 		(uuid "7bf2bfaa-4c78-4338-bab5-0e3817e0e74b")
 	)
-	(label "#SD CS"
+	(label "{slash}SD CS"
 		(at 50.8 69.85 0)
 		(effects
 			(font
@@ -2392,7 +2392,7 @@
 		)
 		(uuid "85e2fdde-2889-4b71-bca0-e221c53c5091")
 	)
-	(label "#SD CS"
+	(label "{slash}SD CS"
 		(at 59.69 41.91 0)
 		(effects
 			(font
@@ -2432,7 +2432,7 @@
 		)
 		(uuid "d5bfef14-1ec7-46ed-8442-357c4506b11d")
 	)
-	(label "#FRAM CS"
+	(label "{slash}FRAM CS"
 		(at 109.22 52.07 0)
 		(effects
 			(font
