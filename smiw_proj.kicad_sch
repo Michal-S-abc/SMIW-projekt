@@ -3510,6 +3510,16 @@
 		)
 		(uuid "51e4a5bf-70a1-453e-86ad-618fdbdd57f3")
 	)
+	(text "VCC ma 5V\nVDD ma 3.3V"
+		(exclude_from_sim no)
+		(at 143.256 55.118 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7a05c9a7-a009-463d-be07-442779558ba2")
+	)
 	(text "Zasilanie\n"
 		(exclude_from_sim no)
 		(at 41.656 44.704 0)
@@ -5081,7 +5091,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 57.15 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5240,7 +5250,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 246.38 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5406,7 +5416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 64.262 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -5720,7 +5730,7 @@
 				)
 			)
 		)
-		(property "Value" "VDD"
+		(property "Value" "Vdd"
 			(at 234.188 25.654 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5809,7 +5819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 72.39 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5890,7 +5900,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 134.3152 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -5971,7 +5981,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
 			(at 133.0452 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -6213,7 +6223,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 52.07 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -6295,7 +6305,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 233.172 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -6429,6 +6439,116 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x06_Odd_Even")
+		(at 185.42 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "50398082-a4fc-4eef-9399-462eea8ce48c")
+		(property "Reference" "J1"
+			(at 186.69 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x06_Odd_Even"
+			(at 186.436 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_2x06_P1.00mm_Vertical_SMD"
+			(at 185.42 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 185.42 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "25610022-6762-4c6e-b9e4-ba5e2507f77b")
+		)
+		(pin "1"
+			(uuid "6d96bc52-9aca-45f7-a56a-640879a8585b")
+		)
+		(pin "3"
+			(uuid "5fb32998-937d-4735-8b49-3c32cd74de15")
+		)
+		(pin "9"
+			(uuid "68831b01-c673-48b9-9e09-f6322c79b2f4")
+		)
+		(pin "10"
+			(uuid "0d4e2898-2e20-4b4b-912c-27e88035166e")
+		)
+		(pin "8"
+			(uuid "b25c4ece-8b82-43f0-82c6-1a5091a26482")
+		)
+		(pin "12"
+			(uuid "77002e30-25ca-400c-9def-a6d85543b2a6")
+		)
+		(pin "4"
+			(uuid "46e78df8-6d44-4520-aa9c-3522cf76337b")
+		)
+		(pin "5"
+			(uuid "22de6676-ffd5-40f1-adcc-ce6f8f16fb89")
+		)
+		(pin "6"
+			(uuid "3be55e24-a507-4ff4-8720-16e9db4aed82")
+		)
+		(pin "11"
+			(uuid "b3107044-b087-46df-bf81-7a9a8588e911")
+		)
+		(pin "7"
+			(uuid "c52ff616-3a12-46a3-93d3-5f027f375982")
+		)
+		(instances
+			(project "smiw_proj"
+				(path "/8fb2202e-c9a0-482b-8823-f82b9d12ce5a"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 68.58 78.74 0)
 		(unit 1)
@@ -6507,116 +6627,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x06_Odd_Even")
-		(at 185.42 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5882ca42-f4a1-41b1-82c9-e691f08a24bf")
-		(property "Reference" "J1"
-			(at 186.69 25.654 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x06_Odd_Even"
-			(at 186.69 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 185.42 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "12"
-			(uuid "cd854822-2fe6-402b-bf54-9891140eac32")
-		)
-		(pin "6"
-			(uuid "d98f3736-9d22-40c0-acad-f813f5e33cae")
-		)
-		(pin "8"
-			(uuid "dbccb903-9680-453d-9ca2-175a52cc07a7")
-		)
-		(pin "1"
-			(uuid "7ce6117d-e15e-417d-b4b9-715c8e865c9f")
-		)
-		(pin "3"
-			(uuid "ef625248-7c30-44d6-af5e-4794e94ba827")
-		)
-		(pin "4"
-			(uuid "c3266c40-ab0b-4681-9104-7235b5cc9b66")
-		)
-		(pin "10"
-			(uuid "19e07d34-b014-4bea-9351-9a574368435e")
-		)
-		(pin "7"
-			(uuid "72cbab49-815a-4649-ae48-479abfcc291f")
-		)
-		(pin "5"
-			(uuid "3e6457b8-aedc-4648-86e6-b213fd879558")
-		)
-		(pin "11"
-			(uuid "78df5ffe-9ef0-41c3-9493-bf537bc8f836")
-		)
-		(pin "2"
-			(uuid "7d193477-85cc-404c-a6ee-6d82d769a111")
-		)
-		(pin "9"
-			(uuid "aa443eda-1c45-4098-81c0-e01df2a6ab14")
-		)
-		(instances
-			(project "smiw_proj"
-				(path "/8fb2202e-c9a0-482b-8823-f82b9d12ce5a"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 114.3 72.39 90)
 		(unit 1)
@@ -6647,7 +6657,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 114.3 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -7377,7 +7387,7 @@
 				)
 			)
 		)
-		(property "Value" "VDD"
+		(property "Value" "Vdd"
 			(at 146.558 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7512,110 +7522,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
-		(at 240.03 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8e71876a-9400-47f6-9b2c-f5019083ea0f")
-		(property "Reference" "J2"
-			(at 241.3 25.654 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x05_Odd_Even"
-			(at 241.3 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 240.03 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "e0c42f68-4aa8-4431-ae90-a2a392626623")
-		)
-		(pin "6"
-			(uuid "cf2a73fe-7fc3-4b89-a54e-4c56e3a6e655")
-		)
-		(pin "9"
-			(uuid "ecb1c101-700e-4317-8844-f24f27f5d91e")
-		)
-		(pin "5"
-			(uuid "141e6b90-5bc0-4603-8f08-b175bb4e87cd")
-		)
-		(pin "2"
-			(uuid "102100df-d9e0-4a50-aee3-82cd7aba1a61")
-		)
-		(pin "1"
-			(uuid "4634010d-5f9a-4b57-b9ff-ceafe2112805")
-		)
-		(pin "7"
-			(uuid "c3528bc0-0050-480c-baab-dd411abdf23f")
-		)
-		(pin "8"
-			(uuid "07ec15e8-977d-4053-afa0-ce9f935ec768")
-		)
-		(pin "4"
-			(uuid "68642e53-8208-4375-991e-c190540ceea6")
-		)
-		(pin "10"
-			(uuid "c3157f7c-d8ab-4418-8524-bc5c00a2337d")
-		)
-		(instances
-			(project "smiw_proj"
-				(path "/8fb2202e-c9a0-482b-8823-f82b9d12ce5a"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 68.58 72.39 180)
 		(unit 1)
@@ -7648,7 +7554,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 67.6148 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7890,7 +7796,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
 			(at 61.9252 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7970,7 +7876,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 138.43 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -8013,6 +7919,110 @@
 			(project "smiw_proj"
 				(path "/8fb2202e-c9a0-482b-8823-f82b9d12ce5a"
 					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
+		(at 240.03 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a418c0d0-ab39-4c7a-8bcc-5062a355adae")
+		(property "Reference" "J2"
+			(at 241.3 25.654 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x05_Odd_Even"
+			(at 241.046 41.148 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_2x05_P1.00mm_Vertical_SMD"
+			(at 240.03 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 240.03 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "654a25b8-2482-4d87-bdd9-47fe6cf5d40b")
+		)
+		(pin "6"
+			(uuid "651e267b-1410-4e5f-ae31-e223bd13606c")
+		)
+		(pin "10"
+			(uuid "fc35cdc9-ab63-43d4-b2ad-3a8831f757bf")
+		)
+		(pin "7"
+			(uuid "252919b7-f5d8-47be-8a4d-91daeaa4ba11")
+		)
+		(pin "3"
+			(uuid "07daf163-38a3-4806-b2ba-ccb7c759ee92")
+		)
+		(pin "9"
+			(uuid "131742d7-10a9-4e1c-ad78-bc95bceec910")
+		)
+		(pin "4"
+			(uuid "d185414f-9f64-4b0f-9b64-ecde80822c93")
+		)
+		(pin "5"
+			(uuid "7463275f-e3a1-4e16-bbf0-bc142cca590c")
+		)
+		(pin "2"
+			(uuid "67cc9946-0322-4749-b99d-03854d467e65")
+		)
+		(pin "1"
+			(uuid "0b9bbeef-1e09-4b46-b856-b049fca6a0f8")
+		)
+		(instances
+			(project "smiw_proj"
+				(path "/8fb2202e-c9a0-482b-8823-f82b9d12ce5a"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -8205,7 +8215,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x02_P1.00mm_Vertical_SMD_Pin1Left"
 			(at 43.18 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -8286,7 +8296,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
 			(at 126.6952 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -8601,7 +8611,7 @@
 				)
 			)
 		)
-		(property "Footprint" "stamps3254:Stamp-S3_PIN2.54_DIP"
+		(property "Footprint" "Library:M5Stamp-S3"
 			(at 220.218 78.232 0)
 			(hide yes)
 			(show_name no)
@@ -8765,7 +8775,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x02_P1.00mm_Vertical_SMD_Pin1Left"
 			(at 43.18 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -8846,7 +8856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 127.9652 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -8927,7 +8937,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
 			(at 183.8452 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -9322,7 +9332,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 190.8048 113.03 0)
 			(hide yes)
 			(show_name no)
